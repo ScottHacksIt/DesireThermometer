@@ -1,0 +1,9 @@
+I want you to make me a PHP website with a MySQL database called "Desire Thermometer", based no the "desirethermometer.jpg" image. This website should go in the /web subdirectory f the current folder.
+
+On the website, you'll be able to create an account. An account will consist of the person's first name and a scale of desire from 1 to 10, where each value has a name. Each account will have a unique ID that is automatically assigned. One account can request to "partner" with another account using the other person's account ID. Once the other person accepts their partnering request, the two accounts are considered "partnered". 
+
+Once logged in, the page will show a thermometer. On the side of the thermometer will be the 1-10 scale of desire defined for that person. They can set their current level of desire by sliding an indicator up and down along the thermometer to indicate their current level of desire. If the person is "partnered" to another person, they will have a button available that will show them what the partnered person's level of desire is on the thermometer along with their name for that level of selected desire. Every time the user sets their level of desire, it's stored in the database along with the date and time it was set.
+
+The user also has the option of signing out of the website and changing their password.
+
+
